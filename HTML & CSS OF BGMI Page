@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <title>Document</title>
+<style>
+    body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .BGMI {
+            position: relative;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://wallpapercave.com/wp/wp9731010.jpg') no-repeat center center/cover;
+        }
+        .SignIn {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:300px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-btn, .fb-login-btn {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .fb-login-btn {
+            background-color: #3B5998;
+            color: white;
+        }
+        .or-separator {
+            margin: 20px 0;
+            color: white;
+        }
+        .forgot-password {
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+</style>
+    
+</head>
+<body>
+     <div class ="BGMI">
+        <img src="https://wallpapercave.com/wp/wp9731010.jpg" >
+        <div class="SignIn">
+        <input type="text" placeholder="Username" class="input-field">
+        <i class="fa-thin fa-user"></i>
+      <input type="password" placeholder="Password" class="input-field">
+      <i class="fa-light fa-key"></i>
+      <button class="login-btn">Log In</button>
+      <div class="or-separator">OR</div>
+      <button class="fb-login-btn">Log in with Facebook</button>
+      <a href="#" class="forgot-password">Forgot password?</a> 
+      </div>
+     </div>
+</body>
+</html>
